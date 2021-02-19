@@ -201,4 +201,50 @@ header a{
     margin-top: 50px;
 } 
 
+/*third section */
 
+.free-hubspot{
+    background-color: #84c0ca30; 
+}
+
+.crm{
+    height:300px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.learn{
+    height: 300px;
+    width: 30%;
+    text-align: center;
+
+}
+
+.text-learn{
+    width: 70%;
+}
+
+.learn img{
+    width: 130px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.learn a {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+    
+}
+
+
+ 
+
+
+
+
+/* fourh sesction */
+.option{
+    height: 400px;
+    background-color: #84c0ca30;
+}
