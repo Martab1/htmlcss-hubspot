@@ -1,0 +1,93 @@
+/* GENERALE */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #33475b;
+}
+
+/* UTILITIES */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.float-left{
+    float:left;
+} 
+
+.w-50{
+   width: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.display{
+    display: inline-block;
+} 
+
+/* buttons */
+
+
+
+
+
+/* HEADER */
+
+
+.header1{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+    background-color:#f5f8fa;
+}
+
+.left{
+     position: absolute;
+     top:50%;
+     transform: translateY(-50%);
+}
+header a{
+    color: #33475b;
+}
+
+.top-bar{
+    height: 100%;
+}
+/* .top-bar .english{
+    border-right: 1px solid #33475b;
+    padding-right: 20px;
+}
+
+.top-bar .contact{
+    padding-left: 20px;
+} */
+
+
+/* header 2 */
+
+.header2{
+    position: relative;
+    height: 80px;
+    background-color: pink;
+}
+
+.logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
