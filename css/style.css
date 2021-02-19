@@ -73,6 +73,11 @@ h2{
     padding: 25px;
 }
 
+.btn:hover{
+    text-shadow: 0 0 4px #FFF;
+    box-shadow: 0 0 3px #FA3, inset 0 0 4px 1px #FFF;
+}
+
 .fa-check-circle{
     color: #ff7a59;
 }
@@ -146,7 +151,6 @@ header a{
     padding-left: 10px;
     font-size: 20px;
 }  
-
 
 /* MAIN */
 
@@ -238,7 +242,6 @@ header a{
     width: 170px;
     margin: 0 auto;
 }
-
 
 .text-learn{
     width: 70%;
@@ -437,9 +440,7 @@ hr{
 .companies{
     height: 600px;
     width: 60%;
-    background-color: lightslategray;
 }
-
 
 .square{
     width:200px;
@@ -475,4 +476,50 @@ hr{
     position:relative;
     top: 130px;
     font-size: 12px;
+}
+
+
+.companies img{
+    margin-right: 30px;
+    width: 100px;
+}
+
+.first-row-images{
+    padding-top: 40px;
+}
+
+.first-row-images img:first-child,
+.second-row-images img:first-child{
+    margin-left: 20px;
+}
+
+.first-row-images img:nth-child(4),
+.first-row-images img:nth-child(3){
+    width: 90px;
+    position: relative;
+    top:10px;
+}
+
+.second-row-images{
+    margin-top: 30px;
+}
+
+.second-row-images img:nth-child(2),
+.second-row-images img:nth-child(4){
+    width: 90px;
+    position:relative;
+    bottom:15px;
+}
+
+.second-row-images img:nth-child(3){
+    width: 80px;
+    position: relative;
+    bottom:8px;
+}
+
+.woman img{
+    width:300px;
+    position: relative;
+    left:450px;
+    top: 80px;
 }
