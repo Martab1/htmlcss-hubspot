@@ -217,11 +217,6 @@ header a{
     height: 300px;
     width: 30%;
     text-align: center;
-
-}
-
-.text-learn{
-    width: 70%;
 }
 
 .learn img{
@@ -234,11 +229,36 @@ header a{
     display: block;
     width: 170px;
     margin: 0 auto;
-    
 }
 
 
- 
+.text-learn{
+    width: 70%;
+}
+
+.text-learn h3{
+    margin-top:50px;
+    margin-bottom: 30px;
+}
+
+.text-learn p {
+    width:80%;
+    margin-bottom: 20px;
+}
+
+.text-learn h4{
+text-transform: uppercase;
+}
+
+hr{
+    position: relative;
+    bottom:9px;
+    left:230px;
+    width: 60%;
+    height: 3px;
+    background-color: black;
+}
+
 
 
 
