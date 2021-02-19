@@ -164,9 +164,11 @@ header a{
     font-size: 12px;
 }
 
-/* section board */
+/* section border */
 
-.board{
+.border{
     height: 80px;
-    background-color: green;
+    background-color: #87dacbdb;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
