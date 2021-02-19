@@ -40,6 +40,11 @@ a{
     display: inline-block;
 } 
 
+h1,
+h2{
+    font-weight: 700;
+}
+
 
 
 /* buttons */
@@ -164,7 +169,7 @@ header a{
     font-size: 12px;
 }
 
-/* section border */
+/* border */
 
 .border{
     height: 80px;
@@ -172,3 +177,28 @@ header a{
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
+
+/* sec section */
+
+.powerful{
+    background-color:#84c0ca30;
+    height: 400px;
+    text-align: center;
+}
+
+.powerful h2{
+    margin-bottom: 30px;
+}
+
+.powerful p {
+    width: 55%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.integrations{
+    width: 250px;
+    margin-top: 50px;
+} 
+
+
