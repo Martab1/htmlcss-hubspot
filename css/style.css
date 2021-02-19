@@ -40,6 +40,10 @@ a{
     display: inline-block;
 } 
 
+li{
+    list-style: none;
+}
+
 h1,
 h2{
     font-weight: 700;
@@ -270,21 +274,22 @@ hr{
 }
 
 .fa-check-circle{
-    margin: 12px;
+    margin: 0 12px;
 }
 
 .first.fa-check-circle{
     margin-left: 0;
 }
 
-/* fourh sesction */
+/* fourth section */
 .option{
     height: 700px;
     background-color: #84c0ca30;
 }
 
 .columns{
-   padding-top: 50px ;
+   padding-top: 50px;
+   text-align: center;
 }
 .left-col{
    height:600px;
@@ -301,4 +306,55 @@ hr{
 
 .w-30{
     width: 30%;
+}
+
+.img-col{
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.center-col .img-col{
+    width: 110px;
+    margin-top: 40px;
+}
+
+.right-col .img-col{
+    margin-bottom: 14px;
+}
+
+.columns h4{
+    text-transform: uppercase;
+}
+
+.paragraph{
+    width: 80%;
+    margin: 30px auto;
+    line-height: 26px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+.right-col .paragraph{
+    margin-top: 25px;
+}
+
+.columns ul{
+    margin-top:20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.columns li{
+    text-align: left;
+}
+
+.columns .btn{
+    padding:20px;
+}
+
+/* five section */
+.gradient{
+    height: 600px;
+    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
