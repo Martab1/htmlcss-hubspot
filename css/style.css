@@ -41,6 +41,10 @@ a{
     width: 25%;
 }
 
+.w-30{
+    width: 30%;
+}
+
 .display{
     display: inline-block;
 } 
@@ -332,10 +336,6 @@ hr{
     height: 600px;
 }
 
-.w-30{
-    width: 30%;
-}
-
 .img-col{
     width: 100px;
     margin-top: 30px;
@@ -504,7 +504,7 @@ hr{
 
 
 .companies img{
-    margin-right: 30px;
+    margin-right: 40px;
     width: 100px;
 }
 
@@ -525,14 +525,15 @@ hr{
 }
 
 .second-row-images{
+    margin-left: 15px;
     margin-top: 30px;
 }
 
 .second-row-images img:nth-child(2),
 .second-row-images img:nth-child(4){
-    width: 90px;
+    width: 100px;
     position:relative;
-    bottom:15px;
+    bottom:16px;
 }
 
 .second-row-images img:nth-child(3){
@@ -542,7 +543,7 @@ hr{
 }
 
 .woman img{
-    width:300px;
+    width:320px;
     position: relative;
     left:450px;
     top: 80px;
@@ -570,8 +571,6 @@ footer .btn-white:hover{
     text-decoration: none;
 }
 
-
-
 .footer1{
     position: relative;
     height: 450px;
@@ -587,7 +586,6 @@ footer .btn-white:hover{
     font-size: 14px;
     color: #fff;
 }
-
 
 .a-color{
     color: #33475b;
