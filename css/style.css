@@ -162,9 +162,10 @@ header a{
 
 .hero{
     height: 550px;
+    background-color: #fef7ef;
     background-image: url(../img/jumbotron.png);
-    background-size: 1680px;
-    background-position: 100% 63%;
+    background-repeat: no-repeat;
+    background-position: 100% 42%;
 }
 
 .hero-text{
