@@ -9,6 +9,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #33475b;
     font-size: 15px;
+    padding-top: 80px ;
 }
 
 a{
@@ -89,10 +90,14 @@ h2{
 
 /*header 1 */
 .header1{
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 80px;
     border-bottom: 1px solid black;
     background-color:#f5f8fa;
+    z-index: 1;
 }
 
 header a{
@@ -250,7 +255,7 @@ header a{
 }
 
 .learn img{
-    width: 140px;
+    width: 140px; 
     margin-top: 50px;
     margin-bottom: 15px;
 }
@@ -258,7 +263,9 @@ header a{
 .learn a {
     display: block;
     width: 170px;
-    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin: auto;
 }
 
 .text-learn{
