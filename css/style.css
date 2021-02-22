@@ -188,7 +188,8 @@ header a{
     background-color: #fef7ef;
     background-image: url(../img/jumbotron.png);
     background-repeat: no-repeat;
-    background-position: 100% 42%;
+    background-position: calc(50% + 130px) 40%;
+    
 }
 
 .hero-text{
@@ -546,7 +547,7 @@ hr{
 .woman img{
     width:320px;
     position: relative;
-    left:450px;
+    left:400px;
     top: 80px;
 }
 
