@@ -90,6 +90,7 @@ h2{
 .fa-check-circle{
     color: #ff7a59;
 }
+
 /* HEADER */
 
 /*header 1 */
@@ -533,7 +534,7 @@ hr{
 .second-row-images img:nth-child(4){
     width: 100px;
     position:relative;
-    bottom:16px;
+    bottom:14px;
 }
 
 .second-row-images img:nth-child(3){
