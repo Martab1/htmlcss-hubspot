@@ -82,14 +82,17 @@ h2{
     padding: 25px;
 }
 
+.fa-check-circle{
+    color: #ff7a59;
+}
+
+/* HOVER */
+
 .btn:hover{
     text-shadow: 0 0 4px #FFF;
     box-shadow: 0 0 3px #FA3, inset 0 0 4px 1px #FFF;
 }
 
-.fa-check-circle{
-    color: #ff7a59;
-}
 
 /* HEADER */
 
@@ -189,7 +192,6 @@ header a{
     background-image: url(../img/jumbotron.png);
     background-repeat: no-repeat;
     background-position: calc(50% + 130px) 40%;
-    
 }
 
 .hero-text{
@@ -461,8 +463,8 @@ hr{
 .hubspot{
     height: 600px;
     width: 40%;
-
 }
+
 .companies{
     height: 600px;
     width: 60%;
@@ -503,7 +505,6 @@ hr{
     top: 130px;
     font-size: 12px;
 }
-
 
 .companies img{
     margin-right: 40px;
@@ -642,3 +643,21 @@ footer .btn-white:hover{
     text-align: right;
 }
 
+/* HELP */
+ .help{
+     position: fixed;
+     right:20px;
+     bottom:20px;
+     width: 80px;
+     height: 80px;
+     background-color: #445a70;
+     border-radius: 50%;
+     text-align: center;
+}
+
+.fa-comment-alt{
+     font-size: 40px;
+     position: relative;
+     top:22px;
+     color: #fff;
+}
