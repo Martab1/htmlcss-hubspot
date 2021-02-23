@@ -1,4 +1,4 @@
-/* GENERALE */
+/* GENERALE ---------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ a{
     text-decoration: none;
 }
 
-/* UTILITIES */
+/* UTILITIES ---------------------------------*/
 
 .container{
     width: 1200px;
@@ -49,13 +49,15 @@ a{
 .w-20{
     width: 20%;
     height: 500px;
-    background-color: lightcoral;
+    border-right: 1px solid #f5f8fa;
+   
 }
 
 .w-80{
     width: 80%;
     height: 500px;
-    background-color: lightcyan;
+    text-align: left;
+    
 }
 
 .display{
@@ -99,7 +101,7 @@ h2{
     color: #ff7a59;
 }
 
-/* HOVER */
+/* HOVER ---------------------------------*/
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -139,9 +141,9 @@ footer .btn-white:hover{
     display: block;
 } 
 
-/* HEADER */
+/* HEADER ---------------------------------*/
 
-/*header 1 */
+/* TOP HEADER  */
 .header1{
     position: fixed;
     left: 0;
@@ -192,7 +194,7 @@ header a{
 .dropdown-content{
     display: none;
     position: absolute; 
-    background-color: #f5f8fa;
+    background-color: #fff;
     min-width: 50px;
     line-height: 40px;
     border-radius: 5px;
@@ -221,7 +223,7 @@ header a{
     margin-right: 20px;
 }
 
-/* header 2 */
+/* BOTTOM HEADER */
 
 .header2{
     height: 80px;
@@ -248,6 +250,7 @@ header a{
     font-size: 20px;
 }  
 
+/* software */
 
 .soft-dropdown-content{
     width:800px;
@@ -255,7 +258,7 @@ header a{
     display:none;  
     position: absolute;
     right:0;
-    background-color: #f5f8fa;
+    background-color: #fff;
     line-height: 40px;
     border-radius: 5px;
     border: 1px solid #cbd6e2;
@@ -268,13 +271,39 @@ header a{
     display: inline-block;
 }
 
-
 .software-dropdown:hover .soft-dropdown-content{
     display: block;
 } 
 
+.soft-dropdown-content h3{
+     text-align: center;
+     position: relative;
+     top:40%;
+     font-weight: 400;
+}
 
-/* MAIN */
+.w-80 h4{
+    font-weight: 400;
+}
+
+.w-80 p{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.tab{
+    padding-left: 20px;
+}
+
+.soft-dropdown-content .free{
+    height:100px;
+    border-bottom: 1px solid #f5f8fa;
+    
+}
+
+
+
+/* MAIN ---------------------------------*/
 
 /* first section */
 
@@ -644,7 +673,9 @@ hr{
     top: 80px;
 }
 
-/*FOOTER*/
+/*FOOTER--------------------------------*/
+
+/* footer 1 */
 
 footer{
     height: 580px;
