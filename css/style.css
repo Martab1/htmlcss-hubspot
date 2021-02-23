@@ -286,9 +286,11 @@ header a{
     font-weight: 400;
 }
 
-.w-80 p{
+.w-80 p,
+.w-80 span{
     font-weight: 300;
     font-size: 12px;
+   
 }
 
 .tab{
@@ -298,9 +300,27 @@ header a{
 .soft-dropdown-content .free{
     height:100px;
     border-bottom: 1px solid #f5f8fa;
-    
 }
 
+.free a {
+    text-decoration: underline;
+    color:#0091ae;
+}
+
+.cont .w-50{
+    margin-top: 18px;
+    height:180px;
+    padding-left: 20px ;
+}
+
+.marketing:hover,
+.free:hover,
+.sale:hover,
+.service:hover,
+.cms:hover {
+    background-color: #fff;
+    box-shadow:  1px 1px 1px 1px #cfcccc;
+}
 
 
 /* MAIN ---------------------------------*/
