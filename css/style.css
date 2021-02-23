@@ -124,10 +124,10 @@ h2{
     box-shadow: 0 2px 4px rgb(45 62 80 / 12%);
 }
 
-
 .footer1 a:hover,
 .footer2 a:hover,
-.dropdown a:hover{
+.dropdown a:hover,
+.resources-dropdown a:hover{
     color:#0091ae;
     text-decoration: underline;
 }
@@ -203,7 +203,7 @@ header a{
 }
 .dropdown-content{
     display: none;
-    position: absolute; 
+    position: absolute;
     background-color: #fff;
     min-width: 50px;
     line-height: 40px;
@@ -273,7 +273,7 @@ header a{
     border-radius: 5px;
     border: 1px solid #cbd6e2;
     box-shadow: 0 2px 4px rgb(45 62 80 / 12%);
-    z-index: 1;
+   
 }
 
 .software-dropdown{
@@ -288,7 +288,7 @@ header a{
 .soft-dropdown-content h3{
      text-align: center;
      position: relative;
-     top:40%;
+     top:38%;
      font-weight: 400;
 }
 
@@ -302,7 +302,6 @@ header a{
 .foot-software{
     font-weight: 300;
     font-size: 12px;
-   
 }
 
 .soft-dropdown-content .free{
@@ -357,6 +356,47 @@ header a{
     margin-right: 30px;
     
 }
+
+/* resourches */
+
+.resources-container{
+    position: relative;
+    display: inline-block;
+}
+
+.resources-dropdown{
+    width:700px;
+    height: 400px;
+    display:none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 1px solid #cbd6e2;
+    box-shadow: 0 2px 4px rgb(45 62 80 / 12%);
+    text-align: left;
+}
+
+.resources-dropdown i{
+    padding: 10px;
+    font-size: 20px;
+    color:#ff7a59;
+}
+.resources-dropdown  nav {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.resources-dropdown li{
+    font-weight: 300;
+    margin-right: 35px;
+}
+
+.resources-container:hover .resources-dropdown{
+    display: block;
+} 
 
 /* MAIN ---------------------------------*/
 
