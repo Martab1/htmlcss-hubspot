@@ -115,6 +115,10 @@ h2{
     display: block;
 } 
 
+.resources-container:hover .resources-dropdown{
+    display: block;
+} 
+
 .marketing:hover,
 .free:hover,
 .sale:hover,
@@ -197,7 +201,6 @@ header a{
 }
 
 .dropdown > a:first-child {
-    /* height: 20px; */
     border-right: 1px solid #33475b; 
     padding-right: 20px; 
 }
@@ -210,7 +213,7 @@ header a{
     border-radius: 5px;
     border: 1px solid #cbd6e2;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    
 }
 
 .dropdown .dropdown-content a {
@@ -281,15 +284,12 @@ header a{
     display: inline-block;
 }
 
-.software-dropdown:hover .soft-dropdown-content{
-    display: block;
-} 
-
 .soft-dropdown-content h3{
      text-align: center;
      position: relative;
      top:38%;
      font-weight: 400;
+     font-size: 20px;
 }
 
 .w-80 h4{
@@ -393,10 +393,6 @@ header a{
     font-weight: 300;
     margin-right: 35px;
 }
-
-.resources-container:hover .resources-dropdown{
-    display: block;
-} 
 
 /* MAIN ---------------------------------*/
 
@@ -891,3 +887,8 @@ footer{
     cursor:default;
 }
 
+.fa-robot{
+    font-size: 22px;
+    color: #ff7a59;
+    margin-top: 15px;
+}
